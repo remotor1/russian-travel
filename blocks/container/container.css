@@ -7,3 +7,16 @@
 a.cover:visited {
     color: #fff;
 }
+
+a:link {
+    color: #fff;
+}
+
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: #fff;
+}
