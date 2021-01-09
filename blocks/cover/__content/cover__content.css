@@ -1,0 +1,11 @@
+.cover__content {
+    display: grid;
+    z-index: 1;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+    justify-self: center;
+    row-gap: 32px;
+}

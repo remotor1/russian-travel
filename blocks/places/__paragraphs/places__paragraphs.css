@@ -1,0 +1,19 @@
+.places__paragraphs {
+    display: grid;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    grid-template-columns: 1fr;
+    row-gap: 26px;
+}
+
+@media (max-width: 700px) {
+    .places__paragraphs {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}

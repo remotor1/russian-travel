@@ -1,0 +1,8 @@
+.header__lang-links {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(auto-fill, max-content);
+    grid-auto-flow: column;
+    grid-gap: 18px;
+}

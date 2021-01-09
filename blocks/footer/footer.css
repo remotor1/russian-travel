@@ -1,0 +1,28 @@
+.footer {
+    display: grid;
+    justify-content: space-between;
+    margin: 92px auto 0;
+    padding: 0 48px 24px;
+    grid-template-columns: min-content max-content;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 0 24px 24px;
+    }
+}
+@media (max-width: 650px) {
+    .footer {
+        justify-content: space-between;
+        grid-template-columns: 1fr;
+        
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .footer {
+        margin: 64px auto 0;
+    }
+    
+}

@@ -1,0 +1,12 @@
+.cover {
+    display: grid;
+    margin: 92px auto 0;
+    padding: 0;
+    text-decoration: none;
+    grid-template: 1fr / 1fr;
+}
+@media (max-width: 320px) {
+    .cover {
+        margin: 64px auto 0;
+    }
+}

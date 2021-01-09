@@ -1,0 +1,9 @@
+.container {
+    color: #fff;
+    font-family: Inter;
+    background-color: #2A2C2F;
+}
+
+a.cover:visited {
+    color: #fff;
+}
