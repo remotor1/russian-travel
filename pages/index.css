@@ -14,7 +14,7 @@
 
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
-@import url(../blocks/header/__lang-link/_selected/header__link_selected.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
 
@@ -40,7 +40,7 @@
 
 @import url(../blocks/intro/__list/intro__list.css);
 
-@import url(../blocks/intro/__list/_type/intro__list_type-number.css);
+@import url(../blocks/intro/__list/_number/intro__list_number.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 
