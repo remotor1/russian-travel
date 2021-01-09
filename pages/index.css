@@ -40,7 +40,7 @@
 
 @import url(../blocks/intro/__list/intro__list.css);
 
-@import url(../blocks/intro/__list/_number/intro__list_number.css);
+@import url(../blocks/intro/__number/intro__number.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 
