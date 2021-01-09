@@ -10,3 +10,19 @@
         margin: 64px auto 0;
     }
 }
+.cover.cover:visited {
+    color: #fff;
+}
+
+.cover:link {
+    color: #fff;
+}
+
+
+.cover:hover {
+    color: #fff;
+}
+
+.cover:active {
+    color: #fff;
+}
