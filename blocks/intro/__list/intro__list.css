@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    color: #fff;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
+    font-family: 'Inter', sans-serif;
 }

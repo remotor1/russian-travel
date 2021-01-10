@@ -2,10 +2,12 @@
     max-width: 560px;
     margin: 0;
     padding: 0;
+    color: #fff;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
+    font-family: 'Inter', sans-serif;
     justify-self: center;
 }
 

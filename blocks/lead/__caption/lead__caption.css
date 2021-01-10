@@ -1,9 +1,23 @@
 .lead__caption {
     margin: 8px 0 0;
+    color: #fff;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 14px;
+    font-family: 'Inter', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.15em;
 }
+
+@media (max-width: 768px) {
+    .lead__caption {
+    padding-left: 24px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__caption {
+        padding-left: 16px;
+        }
+ }

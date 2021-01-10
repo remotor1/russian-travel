@@ -1,14 +1,26 @@
 .places__link {
-    color: #FFF;
+    color: #fff;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+    font-family: 'Inter', sans-serif;
     text-decoration-line: underline;
 }
 
 .places__link:hover {
     opacity: 0.8;
+    color: #fff;
 }
 
+.places__link:visited {
+    color: #fff;
+}
 
+.places__link:link {
+    color: #fff;
+}
+
+.places__link:active {
+    color: #fff;
+}

@@ -1,22 +1,4 @@
 .container {
-    color: #fff;
-    font-family: Inter;
+    /* color: #fff; */
     background-color: #2A2C2F;
-}
-
-a.cover:visited {
-    color: #fff;
-}
-
-a:link {
-    color: #fff;
-}
-
-
-a:hover {
-    color: #fff;
-}
-
-a:active {
-    color: #fff;
 }

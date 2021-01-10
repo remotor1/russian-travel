@@ -4,6 +4,8 @@
     padding: 0;
     list-style: none;
     column-gap: 18px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
     grid-template-columns: repeat(5, 1fr);
 }
 

@@ -2,10 +2,12 @@
     max-width: 640px;
     margin: 32px auto 64px;
     padding: 0;
+    color: #fff;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
+    font-family: 'Inter', sans-serif;
     text-align: center;
 }
 
@@ -16,8 +18,8 @@
         margin: 16px auto 40px;
         font-size: 16px;
         line-height: 20px;
-    } 
-} 
+    }
+}
 
 
 @media (max-width: 320px) {

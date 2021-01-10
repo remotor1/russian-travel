@@ -1,9 +1,10 @@
 .footer__link {
-    color: #FFF;
+    color: #fff;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
 
@@ -16,6 +17,18 @@
 
 .footer__link:hover {
     opacity: 0.8;
+    color: #fff;
+}
+.footer__link:visited {
+    color: #fff;
+}
+
+.footer__link:link {
+    color: #fff;
+}
+
+.footer__link:active {
+    color: #fff;
 }
 
 
