@@ -1,6 +1,6 @@
 .places__paragraphs {
     display: grid;
-    align-items: start;
+    align-content: start;
     margin: 0;
     padding: 0;
     font-style: normal;

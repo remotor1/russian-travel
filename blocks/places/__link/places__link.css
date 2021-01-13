@@ -5,12 +5,12 @@
     font-size: 18px;
     line-height: 22px;
     font-family: 'Inter', sans-serif;
+    transition: opacity .5s;
     text-decoration-line: underline;
 }
 
 .places__link:hover {
     opacity: 0.8;
-    color: #fff;
 }
 
 .places__link:visited {

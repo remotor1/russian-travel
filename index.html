@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pages/index.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
 </head>
 
@@ -14,23 +14,26 @@
         <!-- header -->
         <header class="header">
             <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
-            <div class="header__lang-links">
-                <a class="header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a>
-                <a class="header__lang-link" href="#" target="_blank">En</a>
-            </div>
+            <ul class="header__lang-links">
+                <li><a class="header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a></li>
+                <li><a class="header__lang-link" href="#" target="_blank">En</a></li>
+            </ul>
         </header>
 
         <main>
+
             <!-- lead -->
 
             <section class="lead">
+
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <div class="lead__image">
+
+                <figure class="lead__image">
                     <img class="lead__polka" src="./images/lead-polka.jpg" alt="Полка">
-                    <img class="lead__road" src="./images/lead-road.svg" alt="Дорога">
-                </div>
-                <p class="lead__caption">ваша полка — верхняя</p>
+                    <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+                </figure>
+
             </section>
 
             <!-- intro -->
@@ -60,18 +63,18 @@
             <!-- photo-grid -->
 
             <section class="photo-grid">
-                <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Поезд">
-                <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Тучи">
-                <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Туман">
-                <img class="photo-grid__item" src="images/photo-grid-sochi.jpg" alt="Сочи">
-                <img class="photo-grid__item" src="images/photo-grid-arisa.jpg" alt="Ариса">
-                <img class="photo-grid__item" src="images/photo-grid-baikal.jpg" alt="Байкал">
-                <img class="photo-grid__item" src="images/photo-grid-elbrus.jpg" alt="Эльбрус">
-                <img class="photo-grid__item" src="images/photo-grid-kondratiev.jpg" alt="Кандратьев">
-                <img class="photo-grid__item" src="images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
-                <img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
-                <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Байкал">
-                <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Ергаки">
+                <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Поезд">
+                <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Тучи">
+                <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Туман">
+                <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Сочи">
+                <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Ариса">
+                <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Байкал">
+                <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Эльбрус">
+                <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Кандратьев">
+                <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
+                <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
+                <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Байкал">
+                <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Ергаки">
             </section>
 
             <!-- places -->
@@ -80,7 +83,7 @@
                 <article class="places__place">
                     <h2 class="places__title">Куршская коса</h2>
                     <div class="places__website">
-                        <p class="places__url">URL</p>
+                        <p class="places__url">url</p>
                         <a href="http://park-kosa.ru/" class="places__link" target="_blank">park-kosa.ru</a>
                     </div>
                     <img src="./images/place-kosa.jpg" alt="Куршская коса" class="places__image">
@@ -198,31 +201,36 @@
             </section>
 
             <!-- cover -->
-
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover" target="_blank">
-                <img src="./images/cover-trains.jpg" alt="Поезда" class="cover__background">
-                <div class="cover__content">
-                    <h3 class="cover__title">До Байкала «на собаках»</h3>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
-                        на
-                        электричках.</p>
-                </div>
-            </a>
+            
+            <section>
+                <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover" target="_blank">
+                    <img src="./images/cover-trains.jpg" alt="Поезда" class="cover__background">
+                    <div class="cover__content">
+                        <h3 class="cover__title">До Байкала «на собаках»</h3>
+                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до
+                            Байкала
+                            на
+                            электричках.</p>
+                    </div>
+                </a>
+            </section>
 
         </main>
-        
+
         <!-- footer -->
 
-        <section class="footer">
-            <ul class="footer__links">
-                <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-                <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-                <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-                <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-                <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-            </ul>
-            <p class="footer__copyright">© 2021. Игорь</p>
-        </section>
+        <footer class="footer">
+            <nav>
+                <ul class="footer__links">
+                    <li><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+                    <li><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+                    <li><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+                    <li><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+                    <li><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+                </ul>
+            </nav>
+            <p class="footer__copyright">&copy; 2021. Игорь</p>
+        </footer>
 
     </div>
 

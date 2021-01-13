@@ -11,10 +11,7 @@
 
 @media (max-width: 650px) {
     .footer__links {
-        margin: 0;
         margin-bottom: 48px;
-        padding: 0;
-        list-style: none;
         grid-template-columns: 1fr;
         row-gap: 32px;
     }

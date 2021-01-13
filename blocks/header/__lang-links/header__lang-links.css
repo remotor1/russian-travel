@@ -5,4 +5,5 @@
     grid-template-columns: repeat(auto-fill, max-content);
     grid-auto-flow: column;
     grid-gap: 18px;
+    list-style: none;
 }
