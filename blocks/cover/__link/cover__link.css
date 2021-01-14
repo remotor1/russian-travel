@@ -1,0 +1,37 @@
+.cover__link {
+    display: grid;
+    position: relative;
+    margin: 92px auto 0;
+    padding: 0 48px;
+    text-decoration: none;
+    grid-template: 1fr / 1fr; 
+}
+
+@media (max-width: 1024px) {
+    .cover__link {
+        padding: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__link {
+        margin: 64px auto 0;
+    }
+}
+
+
+.cover__link:visited {
+    color: #fff;
+}
+
+.cover__link:link {
+    color: #fff;
+}
+
+.cover__link:hover {
+    color: #fff;
+}
+
+.cover__link:active {
+    color: #fff;
+}

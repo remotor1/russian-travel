@@ -1,36 +1,4 @@
 .cover {
-    display: grid;
-    position: relative;
-    margin: 92px auto 0;
-    padding: 0 48px;
-    text-decoration: none;
-    grid-template: 1fr / 1fr;
-}
-
-@media (max-width: 1024px) {
-    .cover {
-        padding: 0;
-    }
-}
-
-@media (max-width: 320px) {
-    .cover {
-        margin: 64px auto 0;
-    }
-}
-
-.cover:visited {
-    color: #fff;
-}
-
-.cover:link {
-    color: #fff;
-}
-
-.cover:hover {
-    color: #fff;
-}
-
-.cover:active {
-    color: #fff;
+    margin: 0;
+    padding: 0;
 }
