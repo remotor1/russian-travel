@@ -1,21 +1,19 @@
-# Путешествия по России
+# Traveling in Russia
 
-Проeк о прекрасных местах в России для путиществий
+Project about beautiful places in Russia for traveling
 
-[Путешествия по России](https://remotor1.github.io/russian-travel/)
+[Traveling in Russia](https://remotor1.github.io/russian-travel/)
 
+## The following sections are offered::
 
-## Предлагается следующие разделы:
+1. What did we not see there?
+2. Gallery of photos.
+3. Curonian Spit.
+4. Kola.
+5. Altai.
+6. Winter Baikal.
+7. Karelia.
+8. Links.
 
-1. Чего мы там не видели?.
-2. Галерея фотографий.
-3. Куршская коса.
-4. Кольский.
-5. Алтай.
-6. Зимний Байкал.
-7. Карелия.
-8. Ссылки.
-
-
-В проект реализовано позиционирование с использованием **grid** и **flex** элементиов.
-Применина адоптивная верстка. При реализации проекта была соблюдена приверженность **БЭМ**.
+Positioning is implemented in the project using **grid** and **flex** elements.
+Applied adaptive layout. The commitment of **BEM** was respected during the implementation of the project.
